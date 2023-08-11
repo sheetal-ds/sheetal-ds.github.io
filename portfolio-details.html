@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Project Information</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 portfolio-info">
+            <h2 class="portfolio-title">Project Information</h2>
+            
+            <ul>
+              <li><strong>Category</strong>: Machine Learning and NLP</li>
+              <li><strong>Project date</strong>: 23 Mar, 2023</li>
+              <li><strong>Models Used</strong>: Recurrent Neural Networks, Logistic Regression, Linear Discriminant Analysis, Text Vectorization</li>
+              <li><strong>Tools & Libraries </strong>: Python, Pandas, Numpy, Scipy, nltk, gensim, word2vec</li>
+              <li><strong>Project URL</strong>: <a href="https://github.com/sheetal-ds/AmazonReviews-SentimentAnalysis-TopicModelling" class="social-links">GitHub Link</a> (Ctrl + Click / open in different tab)</li>
+            </ul>
+
+            <p>
+              <strong>Description:</strong>
+              Businesses often strive to understand what people talk about their products and ways to improve. In this project, I extracted amazon reviews on top 5 laptop brands to understand customer sentiments and provide specific actionable insights into improving audience experience / expectations.
+            </p>
+            <p>
+              Using word2vec embeddings, I converted text to vector form, such that each word could be represented in numerical vector format. A review containing multiple such words was then converted to vector format by averaging the vectors of the words it contained.
+            </p>
+            <p>
+              Sentiment of a review was identified using supervised machine learning classification techniques like Recurrent Neural Networks and Logistic Regression. Dominant topic of each rveiew was identified by performing LDA Topic Modelling technique.
+            </p>
+            <p>
+              Once I had the sentiment and topic of each review, I identified charatcteristics of laptops that customers are happy about (battery life, display) and charatcteristics that customers complained about (quality & performance, service).
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <img src="assets/img/portfolio/sentiment_portfolio.jpg" alt="" class="img-fluid">
+          </div>
+
+        </div>
+
+      </div>
+    </div><!-- End Portfolio Details -->
+
+  </main><!-- End #main -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
